@@ -26,17 +26,22 @@ const crypto = () => {
           <p>Projects</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-            officiis fuga ipsum praesentium vero aliquid, in laborum deleniti
-            assumenda, similique, distinctio tempora placeat ipsam est
-            consequatur dicta repellat. Iusto dolore iste ea, illo numquam nulla
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-            officiis fuga ipsum praesentium vero aliquid, in laborum deleniti
-            assumenda, similique, distinctio tempora placeat ipsam est
-            consequatur dicta repellat. Iusto dolore iste ea, illo numquam nulla
-            doloribus cum provident eveniet. Dicta.
+            This is a cryptocurrency website which is powered by{" "}
+            <span  className="underline"><Link href="https://www.coingecko.com/en/api">
+            Coin gecko api
+          </Link></span>
+            . Basically the coin ranks all the coins and the first 10 are
+            displayed on the page. It also gives a list of the trending coins
+            where one can follow on the market trends. A user can create an
+            account and save their details upon which they can be able to mark
+            some coins as favourite upon clicking either of them. The database is created in <span  className="underline"><Link href="https://www.coingecko.com/en/api" className="underline">
+            Firebase
+          </Link></span>
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+         <Link href="https://cryptowebsite.vercel.app/">
+         <button className="px-8 py-2 mt-4 mr-8">
+         Demo</button>
+        </Link>
           <button className="px-8 py-2 mt-4">Code</button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">

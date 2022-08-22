@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import {useRouter} from "next/router";
+import navLogo from "../public/assets/vicNav.svg"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -55,10 +56,10 @@ const Navbar = () => {
         <Link href="/">
           <Image
             className="cursor-pointer"
-            src="/../public/assets/navLogo.png"
+            src={navLogo}
             alt="/"
             width="125"
-            height="50"
+            height="40"
           />
         </Link>
         {/*List for displaying mobile menu*/}
@@ -105,7 +106,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Image
-                src="/../public/assets/navLogo.png"
+                src={navLogo}
                 alt="/"
                 width="60"
                 height="25"

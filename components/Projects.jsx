@@ -17,7 +17,7 @@ const Projects = () => {
           <ProjectItem
             title="Property Finder"
             backgroundImg={propertyImg}
-            projectUrl="/property"
+            projectUrl="https://github.com/Itsmevick/"
           />
           <ProjectItem
             title="Crypto App"
@@ -27,12 +27,12 @@ const Projects = () => {
           <ProjectItem
             title="Netflix App"
             backgroundImg={netflixImg}
-            projectUrl="/netflix"
+            projectUrl="https://github.com/Itsmevick/"
           />
           <ProjectItem
             title="Twitch App"
             backgroundImg={twitchImg}
-            projectUrl="/twitch"
+            projectUrl="https://github.com/Itsmevick/"
           />
         </div>
       </div>
